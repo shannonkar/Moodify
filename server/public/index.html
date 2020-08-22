@@ -119,7 +119,7 @@
               $('#loggedin').hide();
           }
           document.getElementById('login-button').addEventListener('click', function() {
-            var client_id = 'da01e8cca0df4d12a3ec66ff2f62c9e2'; // Your client id
+            var client_id = ''; // Your client id
             var redirect_uri = 'https://app-moodify-frontend.herokuapp.com/'; // Your redirect uri
             var state = generateRandomString(16);
             localStorage.setItem(stateKey, state);
