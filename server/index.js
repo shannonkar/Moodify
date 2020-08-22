@@ -5,5 +5,9 @@ const path = require("path");
 const port = process.env.PORT || 8888;
 
 app.use(express.static(__dirname + '/public'));
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/index.html'));
+});
 console.log('Listening on PORT');
 app.listen(port);

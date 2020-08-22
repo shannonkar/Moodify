@@ -6,7 +6,7 @@
   "scripts": { 
     "start": "node index.js",    
     "dev": "nodemon index.js" ,
-    "publishToHeroku": "cd ../ && git subtree push --prefix server heroku-app-moodify-backend master || true"  
+    "publishToHeroku": "cd ../ && git subtree push --prefix server heroku-app-moodify-server   master || true"  
   },
   "author": "",
   "license": "ISC",
