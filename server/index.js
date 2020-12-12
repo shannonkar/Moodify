@@ -9,8 +9,7 @@ const qs = require('qs');
 //const port = process.env.PORT || 8888;
 const port = 8080;
 const auth_url = 'https://accounts.spotify.com/authorize';
-const client_id = 'da01e8cca0df4d12a3ec66ff2f62c9e2';
-const client_secret = 'c28592487eaa47f4ab61b650b5259eb7';
+
 const redirect_uri = 'http://localhost:8080/callback';
 const scope = 'user-read-private user-read-email';
 // app.use(express.static(__dirname + '/public'));
